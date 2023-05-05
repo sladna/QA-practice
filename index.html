@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Login</title>
+        <link rel="stylesheet" href="./css/style.css" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+        <script>
+            const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
+            const tooltipList = [...tooltipTriggerList].map((tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl));
+        </script>
+    </head>
+    <body>
+        <div class="site">
+            <div class="container-fluid">
+                <h1>Bсі люди діляться на дві групи – тих, хто любить собак, і тих, хто обожнює котиків.</h1>
+                <img src="img/cat.jpg" class="first_img" class="img-fluid" />
+                <p>17 лютого у Європі святкують День кота. Тому ми зібрали для вас факти та цікавинки, які змусять по-новому подивитися на пухнастиків, навіть якщо у вас на них алергія.</p>
+                <ol>
+                    <li>Вчені зафіксували, що <strong>в господарів котів імовірність інфаркту або інсульту зменшується на 30%</strong>.</li>
+                    <img src="img/cat1.jpg" class="second_img" class="img-fluid" />
+                    <li>Виявляється, у людей і котів за <strong>емоції</strong> відповідають одні і ті ж ділянки мозку.</li>
+                    <iframe
+                        width="560"
+                        height="315"
+                        src="https://www.youtube.com/embed/6kO2LNnZ3M4"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen
+                    ></iframe>
+                    <li>У котів немає потових залоз по всьому тілу, як у людей. Вони <strong>пітніють тільки через лапи</strong>.</li>
+                    <img src="img/cat2.jpg" class="third_img" class="img-fluid" />
+                    <div>
+                        <button type="button" class="button">Click me!</button>
+                    </div>
+                </ol>
+                <table class="table table-success table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col" class="table-warning">#</th>
+                            <th scope="col" class="table-warning">First name</th>
+                            <th scope="col" class="table-warning">Last name</th>
+                            <th scope="col" class="table-warning">Phone</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Johny</td>
+                            <td>Depp</td>
+                            <td>+380931032398</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>Cullen</td>
+                            <td>+380638746061</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Carrie</td>
+                            <td>Bradshaw</td>
+                            <td>0808007050</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="dropdown" data-bs-theme="dark">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButtonDark" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dark dropdown
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButtonDark">
+                        <li><a class="dropdown-item active" href="https://whitepay.com/product/crypto-acquiring">Crypto acquiring</a></li>
+                        <li><a class="dropdown-item" href="https://whitepay.com/product/platform">Platform</a></li>
+                        <li><a class="dropdown-item" href="https://whitepay.com/product">POS</a></li>
+                        <li><a class="dropdown-item" href="https://whitepay.com/product/crypto-donation">Crypto donations</a></li>
+                        <li><hr class="dropdown-divider" /></li>
+                        <li><a class="dropdown-item" href="mainPage.html">Link to mainPage file</a></li>
+                    </ul>
+                </div>
+                <div class="btn">
+                    <a class="btn btn-primary" href="https://crm.whitepay.com/login" role="button">Link</a>
+                </div>
+                <p class="lead">
+                    This is a lead paragraph. It stands out from regular paragraphs.
+                </p>
+                <p>You can use the mark tag to <mark>highlight</mark> text.</p>
+                <p><del>This line of text is meant to be treated as deleted text.</del></p>
+                <p><s>This line of text is meant to be treated as no longer accurate.</s></p>
+                <p><ins>This line of text is meant to be treated as an addition to the document.</ins></p>
+                <p><u>This line of text will render as underlined.</u></p>
+                <p><small>This line of text is meant to be treated as fine print.</small></p>
+                <p><strong>This line rendered as bold text.</strong></p>
+                <p><em>This line rendered as italicized text.</em></p>
+                <figure class="text-center">
+                    <blockquote class="blockquote">
+                        <p>A well-known quote, contained in a blockquote element.</p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></figcaption>
+                </figure>
+                <div class="spinner-border text-primary" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+                <div class="spinner-border text-secondary" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+                <div class="spinner-border text-success" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+                <div class="spinner-border text-danger" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+                <div class="spinner-border text-warning" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+                <div class="spinner-border text-info" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+                <div class="spinner-border text-light" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+                <div class="spinner-border text-dark" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+                <img src="/img/cat3.jpg" class="img-fluid" />
+
+                <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip" data-bs-title="This top tooltip is themed via CSS variables.">
+                    Custom tooltip
+                </button>
+
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Accordion Item #1
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall
+                                appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within
+                                the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Accordion Item #2
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall
+                                appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within
+                                the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Accordion Item #3
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall
+                                appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within
+                                the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br />
+                <div class="grid">
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col">
+                                <img src="img/winny.png" width="100" />
+                                <h5>First block</h5>
+                            </div>
+                            <div class="col">
+                                <img src="img/winny.png" width="100" />
+                                <h5>Second</h5>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <img src="img/winny.png" width="100" />
+                                <h5>3rd</h5>
+                            </div>
+                            <div class="col">
+                                <img src="img/winny.png" width="100" />
+                                <h5>4th</h5>
+                            </div>
+                            <div class="col">
+                                <img src="img/winny.png" width="100" />
+                                <h5>5th</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br />
+
+                <div class="copyright">
+                    <p>©Whitepay 2023. All rights reserved.</p>
+                    <p>Glory to Ukraine 🇺🇦</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
